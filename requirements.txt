@@ -1,9 +1,12 @@
 absl-py==0.9.0
 astunparse==1.6.3
+atomicwrites==1.4.0
+attrs==19.3.0
 backcall==0.2.0
 cachetools==4.1.1
 certifi==2020.6.20
 chardet==3.0.4
+Click==7.0
 colorama==0.4.3
 cycler==0.10.0
 decorator==4.4.2
@@ -23,19 +26,24 @@ Keras-Preprocessing==1.1.2
 kiwisolver==1.2.0
 Markdown==3.2.2
 matplotlib==3.0.3
+more-itertools==8.4.0
 numpy==1.19.0
 oauthlib==3.1.0
 opt-einsum==3.2.1
 pandas==0.24.2
 parso==0.7.0
 pickleshare==0.7.5
+pluggy==0.13.1
 prompt-toolkit==3.0.5
 protobuf==3.12.2
+py==1.9.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 Pygments==2.6.1
 pypandoc==1.4
 pyparsing==2.4.7
+pytest==4.3.1
+pytest-runner==4.4
 python-dateutil==2.8.1
 pytz==2020.1
 requests==2.24.0
@@ -50,7 +58,7 @@ tensorflow==2.2.0
 tensorflow-estimator==2.2.0
 termcolor==1.1.0
 threadpoolctl==2.1.0
--e git+https://github.com/lelliott-geo/titanic_datascience.git@48377aeead5638ed4c3c557ed4e353066fcd7970#egg=titanic
+-e git+https://github.com/lelliott-geo/titanic_datascience.git@febcd8f500f2a5456358f85858f5b4e33457aa42#egg=titanic
 traitlets==4.3.3
 urllib3==1.25.9
 watermark==1.8.1
