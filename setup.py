@@ -25,4 +25,13 @@ setup(
     author_email='lauraelliott8671@comcast.net',  # Substitute your email
     license='MIT',
     packages=['titanic'],
-)
+    install_requires=[
+		...
+        'pytest>=4.3.1',
+        'pytest-runner>=4.4',
+    ],
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
+    ini
+    [aliases]
+    test=pytest)
