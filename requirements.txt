@@ -60,7 +60,7 @@ termcolor==1.1.0
 threadpoolctl==2.1.0
 -e git+https://github.com/lelliott-geo/titanic_datascience.git@febcd8f500f2a5456358f85858f5b4e33457aa42#egg=titanic
 traitlets==4.3.3
-urllib3==1.25.9
+urllib3==1.26.5
 watermark==1.8.1
 wcwidth==0.2.5
 Werkzeug==1.0.1
